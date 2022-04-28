@@ -12,7 +12,8 @@ void main() {
                 title: Text('100.0'),
                 subtitle: Text('1000'),
               ),
-            ),Card(
+            ),
+            Card(
               child: ListTile(
                 leading: Icon(Icons.monetization_on),
                 title: Text('200.0'),
@@ -23,7 +24,7 @@ void main() {
         ),
         appBar: AppBar(
           title: const Text(
-            'TransferÃªncias',
+            'Transferências',
           ),
         ),
         floatingActionButton: FloatingActionButton(
@@ -33,4 +34,13 @@ void main() {
       ),
     ),
   );
+}
+
+class ListaTransferencia extends Stateless { //Transforma ListaTransferencia em Widget e entrar no body
+  @override
+  Element createElement() {
+    // TODO: implement createElement
+    throw UnimplementedError();
+  }
+
 }
